@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "IFT Ecosystem - Your Gateway to IFT Products",
+  title: "IFT Bookmark - Gateway to the IFT Ecosystem",
   description: "A comprehensive collection of IFT-related products, protocols, and resources.",
 };
 
