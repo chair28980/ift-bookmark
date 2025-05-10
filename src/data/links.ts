@@ -1,7 +1,7 @@
 export interface Link {
   title: string;
   url: string;
-  category: 'protocol' | 'blog' | 'social' | 'token';
+  category: 'protocol' | 'blog' | 'social' | 'token' | 'wallet';
   description?: string;
 }
 
@@ -11,6 +11,30 @@ export const links: Link[] = [
     url: 'https://free.technology',
     category: 'protocol',
     description: 'Building public goods to safeguard civil liberties in the digital age.'
+  },
+  {
+    title: 'Status App',
+    url: 'https://status.app',
+    category: 'protocol',
+    description: 'Open-source, decentralised wallet and messenger.'
+  },
+  {
+    title: 'Status Blog',
+    url: 'https://blog.status.app',
+    category: 'blog',
+    description: 'Status Project and News updates'
+  },
+  {
+    title: '$SNT',
+    url: 'https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e',
+    category: 'token',
+    description: 'Status Network Token'
+  },
+  {
+    title: 'Keycard',
+    url: 'https://keycard.tech/',
+    category: 'wallet',
+    description: 'Trade swiftly and safely back up your assets with Keycard hardware wallets.'
   },
   {
     title: 'Logos',
@@ -55,6 +79,12 @@ export const links: Link[] = [
     description: 'Codex Project and News updates'
   },
   {
+    title: 'Codex Testnet Starter',
+    url: 'https://github.com/codex-storage/codex-testnet-starter',
+    category: 'protocol',
+    description: 'Codex Testnet Starter'
+  },
+  {
     title: 'Nomos',
     url: 'https://nomos.tech',
     category: 'protocol',
@@ -67,27 +97,9 @@ export const links: Link[] = [
     description: 'Nomos Project and News updates'
   },
   {
-    title: 'Status App',
-    url: 'https://status.app',
-    category: 'protocol',
-    description: 'Open-source, decentralised wallet and messenger.'
-  },
-  {
-    title: 'Status Blog',
-    url: 'https://blog.status.app',
-    category: 'blog',
-    description: 'Status Project and News updates'
-  },
-  {
-    title: '$SNT',
-    url: 'https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e',
-    category: 'token',
-    description: 'Status Network Token'
-  },
-  {
     title: 'Logos Network YouTube',
     url: 'https://www.youtube.com/@LogosNetwork',
     category: 'social',
     description: 'Logos Network YouTube Channel'
-  }
+  },
 ]; 
