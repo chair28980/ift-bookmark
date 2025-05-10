@@ -16,6 +16,11 @@ export const links: Link[] = [
     category: 'protocol'
   },
   {
+    title: 'Logos Roadmap',
+    url: 'https://roadmap.logos.co',
+    category: 'protocol'
+  },
+  {
     title: 'Vac',
     url: 'https://vac.dev',
     category: 'protocol'
