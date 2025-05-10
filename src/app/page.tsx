@@ -24,6 +24,11 @@ export default function Home() {
                 <h2 className="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors duration-300">
                   {link.title}
                 </h2>
+                {link.description && (
+                  <p className="text-gray-400 text-sm mb-4">
+                    {link.description}
+                  </p>
+                )}
                 <div className="mt-4">
                   <span className="inline-block px-3 py-1 text-xs rounded-full bg-gray-700/50 text-gray-300">
                     {link.category}
