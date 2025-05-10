@@ -1,7 +1,7 @@
 export interface Link {
   title: string;
   url: string;
-  category: 'protocol' | 'blog' | 'social';
+  category: 'protocol' | 'blog' | 'social' | 'token';
 }
 
 export const links: Link[] = [
@@ -59,6 +59,11 @@ export const links: Link[] = [
     title: 'Status Blog',
     url: 'https://blog.status.app',
     category: 'blog'
+  },
+  {
+    title: '$SNT',
+    url: 'https://etherscan.io/token/0x744d70fdbe2ba4cf95131626614a1763df805b9e',
+    category: 'token'
   },
   {
     title: 'Logos Network YouTube',
