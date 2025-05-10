@@ -19,10 +19,10 @@ export const links: Link[] = [
     category: 'protocol'
   },
   {
-    title: 'Vac Blog',
-    url: 'https://blog.vac.dev',
-    description: 'Read the latest from Vac',
-    category: 'blog'
+    title: 'Vac',
+    url: 'https://vac.dev',
+    description: 'VAC R&D team',
+    category: 'protocol'
   },
   {
     title: 'Waku',

@@ -1,0 +1,14 @@
+your objective is to create a nextjs app using typescript called 'ift-bookmark', the purpose of the site is to be a one stop place for all ift related things, the app should be designed to be maximally engaging and influence users to return multiple times a day, the app should be a single page app, the apps main feature are highly engaging buttons that are links to the IFT family of products and protocols, the links should include the following:
+
+- https://free.technology
+- https://logos.co
+- https://blog.vac.dev
+- https://waku.org
+- https://blog.waku.org
+- https://codex.storage
+- https://blog.codex.storage
+- https://nomos.tech
+- https://blog.nomos.tech
+- https://status.app
+- https://blog.status.app
+- https://www.youtube.com/@LogosNetwork
