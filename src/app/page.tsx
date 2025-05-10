@@ -1,5 +1,6 @@
 import { links } from '@/data/links';
 import Link from 'next/link';
+import { CategoryIcon } from '@/components/CategoryIcon';
 
 export default function Home() {
   return (
@@ -29,7 +30,8 @@ export default function Home() {
                     {link.description}
                   </p>
                 )}
-                <div className="mt-4">
+                <div className="mt-4 flex items-center gap-2">
+                  <CategoryIcon category={link.category} className="w-4 h-4 text-gray-400" />
                   <span className="inline-block px-3 py-1 text-xs rounded-full bg-gray-700/50 text-gray-300">
                     {link.category}
                   </span>
