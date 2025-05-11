@@ -1,6 +1,5 @@
 import { links } from '@/data/links';
 import Link from 'next/link';
-import Image from 'next/image';
 import { CategoryIcon } from '@/components/CategoryIcon';
 
 export default function Home() {
@@ -24,16 +23,6 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="relative">
                 <div className="flex items-center gap-3 mb-2">
-                  {link.logo && (
-                    <div className="relative w-8 h-8">
-                      <Image
-                        src={link.logo}
-                        alt={`${link.title} logo`}
-                        fill
-                        className="object-contain"
-                      />
-                    </div>
-                  )}
                   <h2 className="text-xl font-semibold group-hover:text-blue-400 transition-colors duration-300">
                     {link.title}
                   </h2>
